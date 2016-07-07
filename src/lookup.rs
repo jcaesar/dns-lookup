@@ -75,7 +75,7 @@ pub fn lookup_host(host: &str) -> Result<LookupHost, self::Error> {
   }
 }
 
-pub fn lookup_addr(addr: &IpAddr) -> Result<String, self::Error> {
+pub fn lookup_addr(_: &IpAddr) -> Result<String, self::Error> {
   unimplemented!();
 }
 // FIXME: To go from SocketAddr -> c socket ptr is a wee bit harder.
